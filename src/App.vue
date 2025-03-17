@@ -39,7 +39,7 @@
        </div>
 
        <!-- Weather cards -->
-       <div class="grid grid-cols-2 gap-4">
+       <div class="grid lg:grid-cols-2 gap-4 sm:grid-cols-1">
         <div v-for="(place, index) in places" :key="index">
           <WeatherCard 
             :place="place"
